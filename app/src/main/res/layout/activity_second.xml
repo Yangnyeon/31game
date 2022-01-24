@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".second"
+    android:orientation="vertical"
+    android:background="@drawable/game2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:textColor="#FFEB3B"
+                android:text="먼저 숫자를 입력하세요!"
+                android:layout_marginTop="30sp"
+                ></TextView>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#03A9F4"
+                android:text="나"
+                android:layout_marginTop="30sp"
+                android:id="@+id/metxt2"
+                ></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#4BF403"
+                android:text="VS"
+                android:layout_marginTop="30sp"
+                ></TextView>
+
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="30sp"
+                android:gravity="center"
+                android:textColor="#F81119"
+                android:text="컴퓨터"
+                android:layout_marginTop="30sp"
+                android:id="@+id/comtxt2"
+                ></TextView>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="300sp"
+                android:textSize="80sp"
+                android:id="@+id/txt2"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:background="#99000000"
+                android:gravity="center"
+                android:layout_marginTop="30sp"
+                ></TextView>
+
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/edt2"
+                android:background="#4DFFFFFF"
+                android:textSize="20sp"
+                android:gravity="center"
+                android:hint="3이하의 숫자를 입력하세요!"
+                android:padding="10sp"
+                android:textColor="#000000"
+                android:textStyle="bold"
+                android:digits="123"
+                ></EditText>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn2"
+                android:text="추가"
+                android:layout_gravity="center"
+                ></Button>
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</LinearLayout>

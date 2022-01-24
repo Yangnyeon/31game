@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/game">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:text="31게임!"
+        android:gravity="center"
+        android:layout_marginTop="50sp"
+        android:textColor="#FFEB3B"
+        ></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:text="컴퓨터와 대결하여 31을 \n 외치게하세요!"
+        android:gravity="center"
+        android:layout_marginTop="80sp"
+        android:textColor="#1DD625"
+        ></TextView>
+
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="선공"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:backgroundTint="#4DFFFFFF"
+        android:id="@+id/btn1"
+        android:layout_marginTop="150sp"
+        android:layout_gravity="center"
+        ></Button>
+
+    <Button
+        android:layout_width="150sp"
+        android:layout_height="wrap_content"
+        android:text="후공"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        android:backgroundTint="#4DFFFFFF"
+        android:layout_marginTop="100sp"
+        android:id="@+id/btn2"
+        android:layout_gravity="center"
+        ></Button>
+
+
+</LinearLayout>
