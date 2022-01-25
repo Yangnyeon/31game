@@ -65,17 +65,25 @@
                 ></TextView>
 
 
-            <TextView
+            <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
                 android:layout_height="300sp"
-                android:textSize="80sp"
-                android:id="@+id/txt2"
-                android:layout_gravity="center"
-                android:textColor="@color/white"
                 android:background="#99000000"
-                android:gravity="center"
-                android:layout_marginTop="30sp"
-                ></TextView>
+                android:backgroundTint="#99000000"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="80sp"
+                    android:id="@+id/txt2"
+                    android:layout_marginTop="90sp"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    ></TextView>
+
+
+            </androidx.cardview.widget.CardView>
 
 
             <EditText
