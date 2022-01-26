@@ -30,7 +30,9 @@ class second : AppCompatActivity() {
                 comtxt2.setText("컴퓨터가 입력한 숫자 : " + random2 + "\n\n")
                 txt2.setText(result2.toString().toInt().toString() + "\n\n")
             } else if(result2 >= 31) {
-                txt2.append("게임종료")
+                metxt2.setText("당신이 입력한 숫자 : " + you + "\n\n")
+                comtxt2.setText("컴퓨터가 입력한 숫자 : " + random2 + "\n\n")
+                txt2.setText("31" + "\n" + "게임종료")
             }
 
         }

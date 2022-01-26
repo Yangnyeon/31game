@@ -3,6 +3,7 @@ package com.example.a31
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import kotlinx.android.synthetic.main.activity_main.*
 import java.util.*
 
@@ -19,6 +20,10 @@ class MainActivity : AppCompatActivity() {
         btn2.setOnClickListener {
             var intent2 = Intent(this, second::class.java)
             startActivity(intent2)
+        }
+
+        btn3.setOnClickListener {
+            Toast.makeText(this, "준비중...", Toast.LENGTH_SHORT).show()
         }
 
     }

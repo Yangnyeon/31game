@@ -24,7 +24,9 @@ class First : AppCompatActivity() {
                 comtxt1.setText("컴퓨터가 입력한 숫자 : " + random1 + "\n\n")
                 txt1.setText(result.toString().toInt().toString() + "\n\n")
             } else if(result >= 31) {
-                txt1.append("게임종료")
+                metxt1.setText("당신이 입력한 숫자 : " + you + "\n\n")
+                comtxt1.setText("컴퓨터가 입력한 숫자 : " + random1 + "\n\n")
+                txt1.setText("31" + "\n" + "게임종료")
             }
 
         }
